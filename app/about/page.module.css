@@ -1,0 +1,70 @@
+.aboutSection {
+  box-sizing: border-box;
+  width: 100%;
+  height: 2396px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 350px 100px 0px 100px;
+  overflow: hidden;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 60px;
+
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.heroImage {
+  width: 100%;
+  height: 1926px;
+  display: block;
+  aspect-ratio: 0.6666666666666666 / 1;
+  background-image: url("/hero/about.avif");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.heroImage h1 {
+  position: absolute;
+  top: -106px;
+  bottom: 1722px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+
+  color: #000;
+  text-align: center;
+  font-size: 96px;
+  font-weight: 500;
+  line-height: 1.2;
+  max-width: 900px;
+  margin: 0 auto;
+
+  width: 675px;
+  height: 384px;
+}
+
+.desc {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: hidden;
+  padding: 0px;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.desc p {
+  font-size: 35px;
+  max-width: 700px;
+}
