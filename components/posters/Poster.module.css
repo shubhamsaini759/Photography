@@ -1,0 +1,117 @@
+.posters {
+  box-sizing: border-box;
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 100px 0px 100px 0px;
+  background-color: #181818;
+  overflow: hidden;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 60px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.posterWrapper {
+  box-sizing: border-box;
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 100px 0px 100px;
+  max-width: 1440px;
+  overflow: hidden;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 30px;
+}
+
+.posterWrapper .header {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  overflow: visible;
+  padding: 0px;
+  align-content: flex-end;
+  flex-wrap: nowrap;
+  gap: 100px;
+}
+
+.posterWrapper .header .leftHeader {
+  flex: 1.4;
+  width: 1px;
+  height: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  line-height: 1.2;
+  color: #fff;
+
+  font-size: 80px;
+  font-weight: 400;
+}
+
+.posterWrapper .header .rightHeader {
+  flex: 1;
+  width: 1px;
+  height: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  line-height: 1.2;
+  color: #fff;
+
+  font-size: 18px;
+  line-height: 25.2px;
+}
+
+/* poster images */
+
+.imageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 100px;
+  position: relative;
+}
+
+.leftImageWrapper,
+.rightImageWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  position: relative;
+}
+
+.leftImage {
+  width: 100%;
+  max-width: 600px; /* control size */
+  aspect-ratio: 2/3; /* portrait ratio */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 12px;
+  background-image: url("/hero/butterfly.jpg");
+}
+
+.rightImage {
+  width: 100%;
+  max-width: 600px; /* control size */
+  aspect-ratio: 2/3; /* portrait ratio */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 12px;
+  background-image: url("/hero/butterfly.jpg");
+}

@@ -1,0 +1,67 @@
+.projectsSection {
+  box-sizing: border-box;
+  width: 100%;
+  height: 695px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  overflow: hidden;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 80px;
+  position: relative;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.projects {
+  width: 2420px;
+  height: 376px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 60px;
+}
+
+.projects .project {
+  width: min-content;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 60px;
+}
+
+.projectCard {
+  width: 250px;
+  height: 376px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/hero/butterfly.jpg");
+}
+
+.button {
+  width: 126px;
+  height: 39px;
+  opacity: 1;
+  background-color: #fff;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+  font-weight: 500;
+  cursor: pointer;
+}

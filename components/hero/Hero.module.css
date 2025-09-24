@@ -1,0 +1,253 @@
+.heroSection {
+  position: relative;
+
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  padding: 0;
+  opacity: 1;
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+
+.heroWrapper {
+  box-sizing: border-box;
+  width: 100%;
+  flex: 1;
+  height: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0px 0px 0px;
+  max-width: 1440px;
+  overflow: visible;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.heroImageWrapper {
+  flex: 1;
+  width: 1px;
+  height: 100%;
+  display: block;
+  overflow: visible;
+  position: relative;
+  border-radius: 0px 0px 0px 0px;
+
+  /* border: 1px solid; */
+}
+
+.leftSideImage {
+  box-sizing: border-box;
+  width: 182px;
+  height: 224px;
+  display: block;
+  background-image: url("/hero/butterfly.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0px 0px 0px 0px;
+  border: 4px solid #181818;
+
+  position: absolute;
+  top: 214px;
+  bottom: 158px;
+  left: -91;
+  right: 1349px;
+}
+
+.leftImageGroup {
+  width: 324px;
+  height: 336px;
+  display: block;
+  overflow: visible;
+  border-radius: 0px 0px 0px 0px;
+
+  position: absolute;
+  top: 115px;
+  bottom: 145px;
+  left: 140px;
+  right: 976px;
+}
+
+.leftImageGroup .topImage {
+  box-sizing: border-box;
+  width: 182px;
+  height: 242px;
+  display: block;
+  background-image: url("/hero/butterfly.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0px 0px 0px 0px;
+  border: 4px solid #181818;
+
+  position: absolute;
+  top: 94px;
+  bottom: 0px;
+  left: 142px;
+  right: 0px;
+}
+
+.leftImageGroup .bottomImage {
+  box-sizing: border-box;
+  width: 182px;
+  height: 224px;
+  display: block;
+  background-image: url("/hero/butterfly.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0px 0px 0px 0px;
+  border: 4px solid #181818;
+
+  position: absolute;
+  top: 0px;
+  bottom: 112px;
+  left: 0px;
+  right: 142px;
+}
+
+.rightImageGroup {
+  width: 318px;
+  height: 374px;
+  display: block;
+  overflow: visible;
+  border-radius: 0px 0px 0px 0px;
+
+  position: absolute;
+  top: 114px;
+  bottom: 108px;
+  left: 974px;
+  right: 148px;
+}
+
+.rightImageGroup .topImage {
+  box-sizing: border-box;
+  width: 182px;
+  height: 243px;
+  display: block;
+  aspect-ratio: 0.75 / 1;
+  background-image: url("/hero/butterfly.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0px 0px 0px 0px;
+  border: 4px solid #181818;
+
+  position: absolute;
+  top: 131px;
+  bottom: 1px;
+  left: 136px;
+  right: 0px;
+}
+
+.rightImageGroup .bottomImage {
+  box-sizing: border-box;
+  width: 182px;
+  height: 275px;
+  display: block;
+  aspect-ratio: 0.6640625 / 1;
+  background-image: url("/hero/butterfly.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0px 0px 0px 0px;
+  border: 4px solid #181818;
+
+  position: absolute;
+  top: 1px;
+  bottom: 99px;
+  left: 1px;
+  right: 135px;
+}
+
+.centerImage {
+  width: 332px;
+  height: 450px;
+  display: block;
+  z-index: 3;
+  aspect-ratio: 0.7376104494813677 / 1;
+  border-radius: 0px 0px 0px 0px;
+
+  position: absolute;
+  top: 73px;
+  bottom: 73px;
+  left: 555px;
+  right: 553px;
+}
+
+.centerImage .centerHeroImage {
+  width: 332px;
+  height: 450px;
+  box-sizing: border-box;
+
+  display: block;
+  background-image: url("/hero/butterfly.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0px 0px 0px 0px;
+  border: 4px solid #181818;
+
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+.rightImage {
+  box-sizing: border-box;
+  width: 182px;
+  height: 224px;
+  display: block;
+  background-image: url("/hero/butterfly.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0px 0px 0px 0px;
+  border: 4px solid #181818;
+
+  position: absolute;
+  top: 170px;
+  bottom: 202px;
+  left: 1352px;
+  right: -94px;
+}
+
+.heroDesc {
+  box-sizing: border-box;
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 40px 0px;
+  overflow: hidden;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.heroDesc .desc {
+  width: 100%;
+  height: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  max-width: 900px;
+  font-size: 35px;
+  line-height: 1.2;
+}

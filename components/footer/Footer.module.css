@@ -1,0 +1,230 @@
+.footerSection {
+  box-sizing: border-box;
+  width: 1440px;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 100px;
+  overflow: hidden;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 80px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.content {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: visible;
+  padding: 0px;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 100px;
+}
+
+.top {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: visible;
+  padding: 0px;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 51px;
+}
+
+.topWrapper {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  overflow: visible;
+  padding: 0px;
+  align-content: flex-end;
+  flex-wrap: nowrap;
+}
+
+.header {
+  flex: 1;
+  width: 1px;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 748px;
+  overflow: visible;
+  padding: 0px;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 6px;
+}
+
+.header h2 {
+  width: 100%;
+  height: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  color: var(--Dark, #181818);
+  line-height: 1.2;
+
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.header p {
+  width: 100%;
+  height: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  opacity: 0.8;
+  color: var(--Dark, #181818);
+  line-height: 1.2;
+
+  font-size: 22px;
+}
+
+.button {
+  width: 126px;
+  height: 39px;
+  opacity: 1;
+  background-color: #fff;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.divider {
+  width: 100%;
+  height: 2px;
+  display: block;
+  background-color: #d9d9d9;
+}
+
+.bottom {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow: visible;
+  padding: 0px;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+}
+.company {
+  width: 341px;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: visible;
+  padding: 0px;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 16px;
+}
+.company h3 {
+  width: 100%;
+  height: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  line-height: 1.2;
+
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.company p {
+  width: 341px;
+  height: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  opacity: 0.8;
+  color: var(--Dark, #181818);
+  line-height: 1.2;
+
+  font-size: 22px;
+}
+
+.menu {
+  width: min-content;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: visible;
+  padding: 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 148px;
+}
+
+.explore,
+.social {
+  width: min-content;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: visible;
+  padding: 0px;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 15px;
+}
+
+.explore h4,
+.social h4 {
+  width: auto;
+  height: auto;
+  white-space: pre;
+  line-height: 1.2;
+
+  font-size: 20px;
+}
+
+.explore p,
+.social p {
+  font-size: 18px;
+}
+
+.copyright {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  overflow: visible;
+  padding: 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+
+  font-size: 18px;
+}
