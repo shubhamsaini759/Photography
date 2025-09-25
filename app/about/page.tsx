@@ -4,7 +4,7 @@ import Footer from "@/components/footer/Footer";
 
 const About = () => {
   return (
-    <>
+    <div className={styles.about}>
       <div className={styles.aboutSection}>
         <div className={styles.heroImage}>
           <h1>A story - minded film and video production company</h1>
@@ -77,7 +77,7 @@ const About = () => {
         <div className={styles.imageBox}></div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

@@ -1,0 +1,235 @@
+.project {
+  /* width: 1440px; */
+  /* height: min-content; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #eaeaea;
+  overflow: hidden;
+  padding: 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 0px;
+}
+
+.hero {
+  box-sizing: border-box;
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 160px 100px 0px 100px;
+  max-width: 1440px;
+  overflow: hidden;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 60px;
+}
+
+.constraint {
+  width: 520px;
+  height: 780px;
+  display: block;
+  aspect-ratio: 0.6666666666666666 / 1;
+}
+
+.highlightProject {
+  width: 520px;
+  height: 780px;
+  display: block;
+  background-image: url("/hero/about.avif");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.highlightProjectHeader {
+  width: auto;
+  height: auto;
+  white-space: pre;
+  z-index: 2;
+  line-height: 1.2;
+  /* position: absolute; */
+  /* top: -54px; */
+  /* bottom: 738px; */
+  /* left: 147px;
+  right: 147px; */
+
+  font-size: 96px;
+  font-weight: 500;
+}
+
+.infoWrapper {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow: hidden;
+  padding: 0px;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.infoTitle {
+  width: auto;
+  height: auto;
+  white-space: pre;
+  opacity: 0.8;
+  color: var(--Dark, #181818);
+  line-height: 1.2;
+}
+
+/* product */
+
+.projectWrapper {
+  box-sizing: border-box;
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 100px 100px 140px 100px;
+  max-width: 1440px;
+  overflow: visible;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 80px;
+}
+
+.projectLeftList {
+  flex: 1;
+  width: 1px;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 140px;
+}
+
+.projectLeftListCard {
+  width: 709px;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: visible;
+  padding: 0px;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 30px;
+}
+.cardImageBox {
+  width: 709px;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: visible;
+  padding: 0px;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 30px;
+}
+.cardImage {
+  width: 709px;
+  height: 685px;
+  display: block;
+  z-index: 5;
+  background-image: url("/hero/about.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.details {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: visible;
+  z-index: 2;
+  padding: 0px;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.detailHeader {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: visible;
+  padding: 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.detailHeader h3 {
+  width: auto;
+  height: auto;
+  white-space: pre;
+  line-height: 1.2;
+
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.detailHeader p {
+  width: 100%;
+  height: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  max-width: 440px;
+  opacity: 0.8;
+  line-height: 1.2;
+
+  font-size: 18px;
+}
+.projectRightList {
+  box-sizing: border-box;
+  flex: 1;
+  width: 1px;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 140px 0px 0px 0px;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 140px;
+}
+
+.projectRightListCard {
+}
+
+.errorImage {
+  width: 100%;
+  height: 415px;
+  display: block;
+  overflow: visible;
+  aspect-ratio: 2.3493975903614457 / 1;
+  background-image: url("/hero/error.avif");
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
