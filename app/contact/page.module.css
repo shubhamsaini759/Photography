@@ -77,6 +77,7 @@
   color: var(--Dark, #181818);
   text-align: left;
   line-height: 1.2;
+  font-size: 18px;
 }
 
 .infoContainer {
@@ -91,11 +92,19 @@
   flex-wrap: nowrap;
   gap: 10px;
 }
+.infoContainer p {
+  font-size: 40px;
+  color: #000;
+}
+
+.infoTitle {
+  font-size: 22px;
+}
 
 /* map */
 
 .mapSection {
-  width: 100%;
+  width: 100vw;
   height: min-content;
   display: flex;
   flex-direction: row;
@@ -110,4 +119,5 @@
 
 .map {
   height: 400px;
+  width: 100%;
 }

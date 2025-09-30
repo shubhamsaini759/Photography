@@ -6,13 +6,13 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 100px 0px 100px 0px;
+  padding: 100px 0;
   background-color: #181818;
   overflow: hidden;
   align-content: center;
   flex-wrap: nowrap;
   gap: 60px;
-  border-radius: 0px 0px 0px 0px;
+  border-radius: 0;
 }
 
 .posterWrapper {
@@ -23,7 +23,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px 100px 0px 100px;
+  padding: 0 100px;
   max-width: 1440px;
   overflow: hidden;
   align-content: center;
@@ -33,55 +33,35 @@
 
 .posterWrapper .header {
   width: 100%;
-  height: min-content;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-end;
-  overflow: visible;
-  padding: 0px;
-  align-content: flex-end;
-  flex-wrap: nowrap;
   gap: 100px;
 }
 
 .posterWrapper .header .leftHeader {
   flex: 1.4;
-  width: 1px;
-  height: auto;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  word-break: break-word;
-  line-height: 1.2;
-  color: #fff;
-
   font-size: 80px;
   font-weight: 400;
+  color: #fff;
+  line-height: 1.2;
 }
 
 .posterWrapper .header .rightHeader {
   flex: 1;
-  width: 1px;
-  height: auto;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  word-break: break-word;
-  line-height: 1.2;
-  color: #fff;
-
   font-size: 18px;
   line-height: 25.2px;
+  color: #fff;
 }
 
 /* poster images */
-
 .imageContainer {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 100px;
-  position: relative;
 }
 
 .leftImageWrapper,
@@ -91,27 +71,82 @@
   justify-content: center;
   align-items: center;
   padding: 50px 0;
-  position: relative;
 }
 
-.leftImage {
-  width: 100%;
-  max-width: 600px; /* control size */
-  aspect-ratio: 2/3; /* portrait ratio */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 12px;
-  background-image: url("/hero/butterfly.jpg");
-}
-
+.leftImage,
 .rightImage {
   width: 100%;
-  max-width: 600px; /* control size */
-  aspect-ratio: 2/3; /* portrait ratio */
+  max-width: 600px;
+  aspect-ratio: 2/3;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 12px;
   background-image: url("/hero/butterfly.jpg");
+}
+
+@media screen and (min-width: 810px) and (max-width: 1439px) {
+  .posterWrapper {
+    padding: 0 60px;
+    gap: 40px;
+  }
+
+  .posterWrapper .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .posterWrapper .header .leftHeader {
+    font-size: 80px;
+  }
+
+  .posterWrapper .header .rightHeader {
+    line-height: 24px;
+  }
+
+  .imageContainer {
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 809px) {
+  .posterWrapper {
+    padding: 0 20px;
+    gap: 30px;
+  }
+
+  .posterWrapper .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .posterWrapper .header .leftHeader {
+    font-size: 60px;
+    line-height: 1.2;
+  }
+
+  .posterWrapper .header .rightHeader {
+    line-height: 20px;
+  }
+
+  .imageContainer {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .leftImageWrapper,
+  .rightImageWrapper {
+    padding: 20px 0;
+    width: 100%;
+  }
+
+  .leftImage,
+  .rightImage {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 4/5;
+  }
 }

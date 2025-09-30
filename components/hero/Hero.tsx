@@ -28,8 +28,9 @@ const Hero = () => {
       </div>
       <div className={styles.heroDesc}>
         <p className={styles.desc}>
-          Through consideration of color, light, and narrative, French
-          pohotographer Coralie Lartius creates scenes
+          Through light and storytelling, fleeting moments are transformed into
+          timeless memories. Each frame is crafted to reflect beauty, emotion,
+          and meaning.
         </p>
       </div>
     </div>

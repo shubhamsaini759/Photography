@@ -6,18 +6,18 @@ import Poster from "@/components/posters/Poster";
 import Category from "@/components/category/Category";
 import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
-import Error from "@/components/Error/Error";
+// import Error from "@/components/Error/Error";
 
 export default function Home() {
   return (
-    // <div className={styles.page}>
-    //   <Navbar />
-    //   <Hero />
-    //   <Porjects />
-    //   <Poster />
-    //   <Category />
-    //   <Footer />
-    // </div>
-    <Error />
+    <div className={styles.page}>
+      <Navbar />
+      <Hero />
+      <Porjects />
+      <Poster />
+      <Category />
+      <Footer />
+    </div>
+    // <Error />
   );
 }

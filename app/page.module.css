@@ -12,6 +12,12 @@
   gap: 0px;
   position: relative;
   border-radius: 0px 0px 0px 0px;
+  /* width: 1440px; */
+}
+
+@media screen and (min-width: 810px) and (max-width: 1439px) {
+}
+@media screen and (min-width: 0px) and (max-width: 809px) {
 }
 
 /* .page {
